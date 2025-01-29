@@ -1,0 +1,41 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Header styles */
+
+/* Sidebar styles */
+.sidebar {
+    margin-top: -19px;
+    height: 100%; /* Full height */
+    width: 250px; /* Sidebar width */
+     /* Fixed position */
+    top: 0; /* Start at the top */
+    left: 0; /* Align to the left */
+    background-color: #fffcfc;
+    padding-top: 60px; /* Space for the header */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 999; /* Below header */
+    overflow-y: auto; /* Enable scroll if content overflows */
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: rgb(65, 65, 65);
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    
+    border-bottom: 1px solid #fbfbfb;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+/* Main content styles */
+
